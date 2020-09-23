@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Training form</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header><h1 id="title">Training Form</h1></header>
+		<main id="main">
+			<header>
+				<p
+					id="description"
+					style="text-align: center; margin-bottom: 10px; padding-top: 10px"
+				>
+					Testing form ver. 1
+				</p>
+				<p style="text-align: center; margin-bottom: 10 px">
+					Please, enter necessary information:
+				</p>
+			</header>
+
+			<form id="survey-form">
+				<div class="labelconteiner"><label id="name-label">*Name:</label></div>
+				<div class="container-property">
+					<input id="name" type="text" required placeholder="enter your name" />
+				</div>
+				<div class="labelconteiner">
+					<label id="email-label">*E-mail:</label>
+				</div>
+				<div class="container-property">
+					<input
+						id="email"
+						type="email"
+						required
+						placeholder="enter your name"
+					/>
+				</div>
+				<div class="labelconteiner">
+					<label id="number-label">*Phone number:</label>
+				</div>
+				<div class="container-property">
+					<input
+						id="number"
+						type="number"
+						required
+						min="80000000000"
+						max="90000000000"
+						placeholder="enter your phone number"
+					/>
+				</div>
+				<div class="labelconteiner"><label>Your role:</label></div>
+				<div class="container-property">
+					<select id="dropdown">
+						<option>Student</option>
+						<option>Job</option>
+						<option>Other</option>
+					</select>
+				</div>
+				<div class="labelconteiner"><label>Your salary:</label></div>
+				<div class="container-property">
+					<input type="radio" name="salary-buttons" value="1" /><15 000 $ p/year
+					<br />
+					<input type="radio" name="salary-buttons" value="2" />>15 000 $
+					p/year, but <50 000 $ p/year <br />
+					<input
+						style="margin-bottom: 20px"
+						type="radio"
+						name="salary-buttons"
+						value="3"
+					/>>50 000 $ p/year
+				</div>
+				<div class="labelconteiner"><label>Your property:</label></div>
+				<div class="container-property">
+					<input type="checkbox" name="property-buttons" value="1" />House
+					<br />
+					<input type="checkbox" name="property-buttons" value="2" />Flat <br />
+					<input type="checkbox" name="property-buttons" value="3" />Car <br />
+					<input
+						style="margin-bottom: 20px"
+						type="checkbox"
+						name="property-buttons"
+						value="4"
+					/>Moto
+				</div>
+
+				<div class="labelconteiner"><label>Your comments:</label></div>
+				<div class="container-property">
+					<textarea
+						id="comments"
+						placeholder="You also can add your comments"
+					></textarea>
+				</div>
+				<button id="submit" type="submit">S U B M I T</button>
+			</form>
+		</main>
+	</body>
+</html>

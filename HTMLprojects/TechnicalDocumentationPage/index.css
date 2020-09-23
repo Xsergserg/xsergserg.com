@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat:500&display=swap');
+body {
+	background-color: hsl(49, 52%, 96%);
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	color: rgb(61, 60, 60);
+}
+
+#navbar {
+	width: auto;
+	height: 100%;
+	border-right: 5px double gray;
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+	position:fixed;
+}
+.main-section {
+	font-size: 17px;
+	text-align: left;
+	padding-left: 370px;
+	padding-right: 30px;
+	text-align: justify;
+}
+#header-nav {
+	padding: 15px;
+	border-bottom: 2px solid gray;
+	padding-left: 50px;
+	font-weight: bold;
+}
+.nav-link {
+	font-size: 20px;
+	text-align: left;
+	padding: 12px 0px 12px 30px;
+	border-bottom: 2px solid gray;
+	text-decoration: none;
+	width: 300px;
+}
+a.nav-link:link, a.nav-link:active, a.nav-link:hover, a.nav-link:visited {
+	color: rgb(61, 60, 60);
+}
+.code {
+	margin-left: 30px;
+	margin-top: 5px;
+	background-color: rgb(184, 255, 231);
+	border-radius: 5px"
+}
+header {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+p, ul {
+	padding-top: 5px;
+	margin: 0;
+}

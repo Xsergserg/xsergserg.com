@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap");
+body {
+	background-color: hsl(120, 56%, 35%);
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: "ZCOOL XiaoWei", serif;
+	width: 100%;
+}
+#navbar {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(37, 37, 41);
+	display: flex;
+	position: fixed;
+	font-size: 30px;
+}
+.navButton {
+	margin: auto 17px auto 0px;
+	color: white;
+	text-decoration: none;
+}
+a.navButton:link,
+a.navButton:active,
+a.navButton:hover,
+a.navButton:visited {
+	color: white;
+}
+#welcome-section {
+	width: 100%;
+	height: 100vh;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 7%,
+		rgba(253, 29, 29, 1) 74%,
+		rgba(241, 235, 32, 1) 100%
+	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#welcome-text-form {
+	height: fit-content;
+}
+.welcome-text {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+
+#about-section {
+		width: 100%;
+		height: auto;
+		min-height: 100vh;
+		background: rgb(61, 110, 106);
+		display: flex;
+		align-items: center;
+	}
+#about-section-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#about-text {
+	margin-right: 26%;
+	margin-left: 26%;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+	display: flex;
+	align-items: center;
+	text-indent: 5%;
+}
+
+.head-text {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+.welcome-small-text {
+	color: rgb(179, 179, 179);
+	text-align: center;
+	font-size: 22px;
+	margin-top: -15px;
+}
+#projects {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	background: rgb(65, 62, 68);
+}
+
+#projects-table {
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: auto;
+}
+.project-tile {
+	width: 380px;
+	height: 400px;
+	margin-bottom: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	text-decoration: none;
+}
+.project-img {
+	width: 330px;
+	height: 330px;
+}
+.project-description {
+	display: flex;
+	height: 70px;
+	width: 330px;
+	background-color: rgb(37, 37, 41);
+	justify-content: center;
+	align-items: center;
+}
+.project-name {
+	color: white;
+	text-align: center;
+	height: fit-content;
+	padding: 0;
+	font-size: 20px;
+}
+#contacts-section {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	background: rgb(41, 57, 93);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.contacts-text1 {
+	font-family: "ZCOOL XiaoWei", serif;
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+.contacts-text2 {
+	font-family: "ZCOOL XiaoWei", serif;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+#logo-container {
+	margin-top: 30px;
+	display: flex;
+	width: 430px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.logo-img {
+	margin: 0;
+	width: 100px;
+	height: 100px;
+}
+@media (max-width: 500px) {
+	.project-tile {
+		width: 360px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#projects-table {
+		padding-left: 0px;
+		padding-right: 0px;
+		justify-content: center;
+	}
+	#navbar {
+		width: 100%;
+		height: 80px;
+		flex-direction: row;
+		font-size: 25px;
+	}
+	.navButton {
+		margin-left: auto;
+		margin-right: auto;
+		color: white;
+		text-decoration: none;
+	}
+	.head-text {
+		text-align: center;
+		color: white;
+		font-size: 35px;
+		padding-top: 80px;
+	}
+	#about-text {
+		margin-right: 10%;
+		margin-left: 10%;
+		text-indent: 15%;
+	}
+	#logo-container {
+		margin-top: 5px;
+		display: flex;
+		width: 90%;
+		justify-content: space-between;
+	}
+}

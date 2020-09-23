@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Montserrat:500&display=swap");
+body {
+	background-color: hsl(0, 3%, 92%);
+}
+#main {
+	background-color: hsl(0, 3%, 79%);
+	max-width: 960px;
+	min-width: 360px;
+	width: auto;
+	height: auto;
+	font-family: montserrat, monospace;
+	margin: auto auto;
+}
+#title {
+	font-family: lobster, monospace;
+	font-size: 45;
+	text-align: center;
+	color: black;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 10px;
+}
+#image {
+	display: block;
+	min-width: 320px;
+	max-width: 640px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#img-div {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: auto;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	padding-bottom: 10px;
+}
+#img-caption {
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+#tribute-info {
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 20px;
+	text-align: justify;
+}
+#tribute-link {
+	color: rgb(65, 122, 120);
+}
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}

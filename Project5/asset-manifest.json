@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Project5/static/css/main.77b0099f.chunk.css",
+    "main.js": "/Project5/static/js/main.1ba832d9.chunk.js",
+    "main.js.map": "/Project5/static/js/main.1ba832d9.chunk.js.map",
+    "runtime-main.js": "/Project5/static/js/runtime-main.50ee90f4.js",
+    "runtime-main.js.map": "/Project5/static/js/runtime-main.50ee90f4.js.map",
+    "static/js/2.2db38519.chunk.js": "/Project5/static/js/2.2db38519.chunk.js",
+    "static/js/2.2db38519.chunk.js.map": "/Project5/static/js/2.2db38519.chunk.js.map",
+    "index.html": "/Project5/index.html",
+    "precache-manifest.f421c3344e238ee3017d8eb8e7fbde4e.js": "/Project5/precache-manifest.f421c3344e238ee3017d8eb8e7fbde4e.js",
+    "service-worker.js": "/Project5/service-worker.js",
+    "static/css/main.77b0099f.chunk.css.map": "/Project5/static/css/main.77b0099f.chunk.css.map",
+    "static/js/2.2db38519.chunk.js.LICENSE.txt": "/Project5/static/js/2.2db38519.chunk.js.LICENSE.txt",
+    "static/media/beep.mp3": "/Project5/static/media/beep.0e67839d.mp3",
+    "static/media/App.css": "/Project5/static/media/digital-7.1e670d88.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ee90f4.js",
+    "static/js/2.2db38519.chunk.js",
+    "static/css/main.77b0099f.chunk.css",
+    "static/js/main.1ba832d9.chunk.js"
+  ]
+}
